@@ -32,7 +32,6 @@ button:focus {
     @extend .z-depth-1;
     transition: .2s ease-out;
     color: #fff!important;
-    margin: 6px;
     white-space: normal !important;
     word-wrap: break-word;
     text-transform: uppercase;
@@ -46,7 +45,7 @@ button:focus {
         outline: 0;
         color: #fff;
         @extend .z-depth-1-half;
-    } 
+    }
     .fa {
         font-size: 1.1rem;
         position: relative;
@@ -59,11 +58,17 @@ button:focus {
             margin-right: 3px;
         }
     }
+    + .btn {
+        margin-left: 6px;
+    }
 }
 
 .btn-group {
     .btn {
         margin: 0;
+        + .btn {
+            margin-left: 0;
+        }
     }
 }
 
