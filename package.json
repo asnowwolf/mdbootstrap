@@ -1,7 +1,7 @@
 {
   "name": "@ng-nice/mdbootstrap",
-  "version": "4.3.201",
-  "description": "Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap. (This is a customized version.)",
+  "version": "4.4.1",
+  "description": "Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap. (This is a customized version for webpack.)",
   "main": "js/mdb.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
